@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Winston-Salem, North Carolina | City Profile</title>
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Project structure (keep consistent across pages):
+       index.html            -> Home
+       raleigh.html          -> Raleigh
+       winston-salem.html    -> Winston-Salem (this file)
+       greenville.html       -> Greenville
+       contact.html          -> Contact/Form
+       css/styles.css        -> External stylesheet
+       images/               -> Images folder
+  -->
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div id="site-title">
+      <h1 id="site-title">North Carolina</h1>
+      <p class="tagline">NC City Profile: Winston-Salem</p>
+    </div>
+
+      <nav class="site-nav" aria-label="Primary">
+      <ul class="top-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="raleigh.html">Raleigh</a></li>
+        <li><a href="winston-salem.html" aria-current="page">Winston-Salem</a></li>
+        <li><a href="greenville.html">Greenville</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+­  <main id="main" class="layout">
+    <aside class="sidebar" aria-labelledby="section-nav-title">
+      <h2 id="section-nav-title" class="visually-hidden">Section navigation</h2>
+      <!-- Left-side navigation semantic for rubric:
+           General Info (replaces Demographics — reminder to self, not visible content),
+           Population, Average Salary, Cost of Living, Weather, Image Gallery
+      -->
+      <nav aria-label="On this page">
+        <ul class="side-nav">
+          <li><a href="#general-info">General Info</a></li>
+          <li><a href="#population">Population</a></li>
+          <li><a href="#average-salary">Average Salary</a></li>
+          <li><a href="#cost-of-living">Cost of Living</a></li>
+          <li><a href="#weather">Weather</a></li>
+          <li><a href="#image-gallery">Image Gallery</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <article class="content">
+<!-- D4 absolute positioning revision -->
+<section id="hero">
+  <figure class="hero-image badge-anchor">
+    <img src="images/winston-salem-skyline.jpg" alt="Winston-Salem skyline with the Winston Tower and surrounding downtown buildings at sunset" />
+    <span id="promo-badge" aria-label="Featured photo" role="note">Featured</span>
+    <figcaption>Downtown Winston-Salem, part of North Carolina’s Piedmont Triad region.</figcaption>
+  </figure>
+</section>
+
+<section id="general-info" aria-labelledby="general-info-title">
+  <h2 id="general-info-title">General Info</h2>
+  <p>
+    Winston-Salem is a major city in North Carolina’s northwestern Piedmont, anchored in the Piedmont Triad metropolitan region. It is best known for its Moravian heritage in Old Salem, its role in tobacco and manufacturing history, and as the home of Wake Forest University and a growing innovation economy.
+  </p>
+  <div id="facts-grid">
+    <div id="fact">
+      <h3>Incorporation year</h3>
+      <p>1913 (official merger of the towns of Winston and Salem)</p>
+    </div>
+    <div id="fact">
+      <h3>Region of the state</h3>
+      <p>Piedmont Triad (northwestern Piedmont of North Carolina)</p>
+    </div>
+    <div id="fact">
+      <h3>City classification</h3>
+      <p>Predominantly urban (core city of the Winston-Salem, NC Metropolitan Statistical Area) with surrounding suburban neighborhoods.</p>
+    </div>
+  </div>
+</section> 
+
+        <h3>At-a-glance table</h3>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Field</th>
+              <th>Winston-Salem</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Population (2023 estimate)</td>
+              <td>≈252,000</td>
+              <td><a href="https://www.census.gov/quickfacts/winstonsalemcitynorthcarolina" target="_blank" rel="noopener noreferrer">U.S. Census Bureau QuickFacts</a></td>
+            </tr>
+            <tr>
+              <td>Incorporation (as Winston-Salem)</td>
+              <td>1913</td>
+              <td><a href="https://en.wikipedia.org/wiki/Winston-Salem" target="_blank" rel="noopener noreferrer">Winston-Salem — Wikipedia</a></td>
+            </tr>
+            <tr>
+              <td>Region</td>
+              <td>Piedmont Triad</td>
+              <td><a href="https://en.wikipedia.org/wiki/Piedmont_Triad" target="_blank" rel="noopener noreferrer">Piedmont Triad — Wikipedia</a></td>
+            </tr>
+          </tbody>
+        </table>
+­        <div id="lists">
+          <div id="list-block">
+            <h3>Historic milestones (ordered)</h3>
+            <ol>
+              <li>1766: Salem established by Moravian settlers.</li>
+              <li>1849–1859: Winston established as Forsyth County seat and incorporated.</li>
+              <li>1913: Winston and Salem officially merge as Winston-Salem.</li>
+            </ol>
+          </div>
+          <div id="list-block">
+            <h3>Notable attractions and institutions (unordered)</h3>
+            <ul>
+              <li>Old Salem Museums & Gardens</li>
+              <li>Wake Forest University</li>
+              <li>Innovation Quarter and downtown arts districts</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="external-cta">
+          City services, permits, and local government info: 
+          <a href="https://www.cityofws.org/" target="_blank" rel="noopener noreferrer">City of Winston-Salem (opens in new tab)</a>.
+        </p>
+      </section>
+
+      <section id="population" aria-labelledby="population-title">
+        <h2 id="population-title">Population</h2>
+        <p>
+          As of the latest U.S. Census Bureau estimate (July 1, 2023), Winston-Salem’s population is approximately 252,000, continuing steady growth since the 2020 decennial census count of 249,545.
+          Source: <a href="https://www.census.gov/quickfacts/winstonsalemcitynorthcarolina" target="_blank" rel="noopener noreferrer">U.S. Census Bureau QuickFacts</a>.
+        </p>
+      </section>
+­      <section id="average-salary" aria-labelledby="average-salary-title">
+        <h2 id="average-salary-title">Average Salary</h2>
+        <p>
+          Using the American Community Survey’s median household income (in 2023 dollars, 2019–2023 5-year estimate):
+        </p>
+        <ul>
+          <li>Winston-Salem median household income: roughly mid-$50,000s.</li>
+          <li>North Carolina statewide median household income: roughly upper-$60,000s.</li>
+        </ul>
+        <p>
+          That places Winston-Salem’s typical household income below the statewide median by around 15–20%, reflecting a cost-of-living-adjusted urban economy with a mix of education, healthcare, manufacturing, and services.
+          Sources: <a href="https://www.census.gov/quickfacts/winstonsalemcitynorthcarolina" target="_blank" rel="noopener noreferrer">QuickFacts — Winston-Salem</a>, 
+          <a href="https://www.census.gov/quickfacts/NC" target="_blank" rel="noopener noreferrer">QuickFacts — North Carolina</a>.
+        </p>
+      </section>
+
+      <section id="cost-of-living" aria-labelledby="cost-of-living-title">
+        <h2 id="cost-of-living-title">Cost of Living</h2>
+        <p>
+          Winston-Salem’s cost of living is typically lower than larger NC metros such as Charlotte or Raleigh, particularly in housing. Third-party indices vary by methodology, but most rate the city modestly below the national average.
+        </p>
+        <p>
+          For current comparisons by category (housing, groceries, transportation), see:
+          <a href="https://www.bestplaces.net/cost_of_living/city/north_carolina/winston-salem" target="_blank" rel="noopener noreferrer">BestPlaces: Cost of Living — Winston-Salem</a>.
+        </p>
+      </section>
+­      <section id="weather" aria-labelledby="weather-title">
+        <h2 id="weather-title">Weather</h2>
+        <p>
+          The city has a humid subtropical climate typical of the North Carolina Piedmont: four distinct seasons, hot and humid summers, and cool winters with occasional wintry precipitation.
+          Typical summer daytime highs reach the upper 80s to low 90s °F; winter nighttime lows often dip into the low-to-mid 30s °F.
+          Reference: <a href="https://weatherspark.com/y/20568/Average-Weather-in-Winston-Salem-North-Carolina-United-States-Year-Round" target="_blank" rel="noopener noreferrer">WeatherSpark — Average Weather in Winston-Salem</a>.
+        </p>
+      </section>
+
+      <section id="image-gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Image Gallery</h2>
+        <div id="gallery">
+          <figure>
+            <img src="images/old-salem.jpg" alt="Historic Moravian buildings at Old Salem in Winston-Salem" />
+            <figcaption>Old Salem Museums & Gardens.</figcaption>
+          </figure>
+          <figure>
+            <img src="images/wake-forest-campus.jpg" alt="Tree-lined quad on the Wake Forest University campus" />
+            <figcaption>Wake Forest University campus.</figcaption>
+          </figure>
+        </div>
+      </section>
+    </article>
+  </main>
+<footer class="site-footer">
+    <section class="sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">Sources and continued education</h2>
+      <ul>
+        <li>U.S. Census Bureau — QuickFacts: Winston-Salem city, North Carolina: https://www.census.gov/quickfacts/winstonsalemcitynorthcarolina</li>
+        <li>U.S. Census Bureau — QuickFacts: North Carolina: https://www.census.gov/quickfacts/NC</li>
+        <li>Winston-Salem — Wikipedia (merger/incorporation history): https://en.wikipedia.org/wiki/Winston-Salem</li>
+        <li>Piedmont Triad — Wikipedia (regional context): https://en.wikipedia.org/wiki/Piedmont_Triad</li>
+        <li>WeatherSpark — Average Weather in Winston-Salem: https://weatherspark.com/y/20568/Average-Weather-in-Winston-Salem-North-Carolina-United-States-Year-Round</li>
+        <li>City of Winston-Salem (official): https://www.cityofws.org/</li>
+      </ul>
+    </section>
+    <p>North Carolina Cities, part of a WGU project</p>
+  </footer>
+</body>
+</html>

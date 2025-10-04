@@ -1,0 +1,191 @@
+­<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact — North Carolina City Profiles (Form with Email Confirmation)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ask a question about North Carolina cities. Includes email confirmation check, image with alt text, external links, lists, and a 3x3 table." />
+  <link rel="stylesheet" href="css/styles.css" />
+  </style>
+</head>
+<body>
+    <header role="banner">
+    <div id="brand">
+      <h1 id="site-title">Raleigh, North Carolina</h1>
+      <p class="tagline">Capital city of the Tar Heel State</p>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">North Carolina Home</a></li>
+        <li><a href="raleigh.html">Raleigh</a></li>
+        <li><a href="winston-salem.html">Winston-Salem</a></li>
+        <li><a href="greenville.html">Greenville</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="layout">
+    <aside aria-label="Section navigation">
+      <!-- General Info (replaces Demographics) -->
+      <nav aria-labelledby="left-sections-title">
+        <h2 id="left-sections-title" style="font-size:1rem;margin:.25rem 0 .5rem;">Site Sections</h2>
+        <ul>
+          <li><a href="index.html#population">Population</a></li>
+          <li><a href="index.html#average-salary">Average Salary</a></li>
+          <li><a href="index.html#cost-of-living">Cost of Living</a></li>
+          <li><a href="index.html#weather">Weather</a></li>
+          <li><a href="index.html#image-gallery">Image Gallery</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main role="main">
+      <article>
+        <header>
+          <h2>Ask a question about North Carolina, Raleigh, Winston-Salem, or Greenville</h2>
+          <p class="lead">Use the form below to send us your question. This is a demonstration page; it validates that both email entries match and does not send data to a server.</p>
+        </header>
+
+­        <figure>
+          <img src="images/nc-map.png" alt="Outline map of North Carolina with markers for Raleigh, Winston-Salem, and Greenville" width="900" height="450" />
+          <figcaption>North Carolina map context for questions related to our profiled cities.</figcaption>
+        </figure>
+
+        <section id="contact-form-section" aria-labelledby="contact-form-title">
+          <h3 id="contact-form-title">Contact form</h3>
+          <form id="contact-form" action="#" method="post" novalidate>
+            <fieldset>
+              <legend>Your information</legend>
+
+              <div id="field">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="first-name" autocomplete="given-name" required />
+              </div>
+
+              <div id="field">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="last-name" autocomplete="family-name" required />
+              </div>
+
+              <div id="field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required aria-describedby="email-hint" />
+                <div id="email-hint" class="muted" style="font-size:.9rem;">We'll use this only to reply to your question.</div>
+              </div>
+
+              <div id="field">
+                <label for="confirm-email">Confirm email address</label>
+                <input type="email" id="confirm-email" name="confirm-email" inputmode="email" required aria-describedby="confirm-email-hint" />
+                <div id="confirm-email-hint" class="muted" style="font-size:.9rem;">Enter the same email again.</div>
+              </div>
+
+­              <div id="field">
+                <label for="question">Your question</label>
+                <textarea id="question" name="question" placeholder="Ask about population, income, cost of living, weather, etc." required></textarea>
+              </div>
+            </fieldset>
+
+            <div id="actions">
+              <button type="submit">Submit</button>
+            </div>
+
+            <p class="muted" style="margin-top:.5rem;">Note: This page demonstrates client-side validation only. No information is submitted to a server.</p>
+          </form>
+        </section>
+
+        <section aria-labelledby="how-to-use">
+          <h3 id="how-to-use">How to use this page</h3>
+          <p>For context and further reading, see the resources linked below. External links open in a new tab.</p>
+
+          <p><a href="https://www.ncdcr.gov/about-us/history/division-historical-resources" target="_blank" rel="noopener noreferrer">Explore North Carolina history (NCDCR)</a></p>
+
+          <h4>Steps to submit your question (ordered list)</h4>
+          <ol>
+            <li>Enter your first and last name.</li>
+            <li>Type your email address, then re-type it in the confirmation field.</li>
+            <li>Write your question and press Submit.</li>
+          </ol>
+
+          <h4>Topics you can ask about (unordered list)</h4>
+          <ul>
+            <li>North Carolina statewide information</li>
+            <li>Raleigh (capital and Triangle region)</li>
+            <li>Winston-Salem (Piedmont Triad)</li>
+            <li>Greenville (Eastern NC, Pitt County)</li>
+          </ul>
+
+­          <h4>Example topics and resources (3x3 table)</h4>
+          <table aria-describedby="table-note">
+            <thead>
+              <tr>
+                <th>City / Topic</th>
+                <th>Example question</th>
+                <th>Reference</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>North Carolina</td>
+                <td>What’s the statewide median household income?</td>
+                <td><a href="https://www.census.gov/quickfacts/NC" target="_blank" rel="noopener noreferrer">U.S. Census — QuickFacts NC</a></td>
+              </tr>
+              <tr>
+                <td>Raleigh</td>
+                <td>How has population changed since 2010?</td>
+                <td><a href="https://www.census.gov/quickfacts/raleighcitynorthcarolina" target="_blank" rel="noopener noreferrer">Census — QuickFacts Raleigh</a></td>
+              </tr>
+              <tr>
+                <td>Winston-Salem &amp; Greenville</td>
+                <td>How do cost-of-living and income compare?</td>
+                <td>
+                  <a href="https://www.census.gov/quickfacts/winstonsalemcitynorthcarolina" target="_blank" rel="noopener noreferrer">Census — Winston-Salem</a> |
+                  <a href="https://www.census.gov/quickfacts/greenvillecitynorthcarolina" target="_blank" rel="noopener noreferrer">Census — Greenville</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p id="table-note" class="muted">These references are for quick context. Always consult the latest releases on each site.</p>
+        </section>
+      </article>
+    </main>
+  </div>
+
+<footer class="site-footer">
+    <section class="sources" aria-labelledby="sources-title">
+      <h2 id="sources-title" style="font-size:1rem;">Sources and further reading</h2>
+      <ul>
+        <li>MDN Web Docs — Client-side form validation: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation</li>
+        <li>W3C WAI — Labeling controls: https://www.w3.org/WAI/tutorials/forms/labels/</li>
+        <li>U.S. Census Bureau — QuickFacts: North Carolina: https://www.census.gov/quickfacts/NC</li>
+        <li>U.S. Census Bureau — QuickFacts: Raleigh; Winston-Salem; Greenville, NC: https://www.census.gov/quickfacts</li>
+        <li>NC Department of Natural and Cultural Resources — State history resources: https://www.ncdcr.gov/about-us/history/division-historical-resources</li>
+      </ul>
+      <p class="muted">This should mirror nav with Raleigh, Winston-Salem, and Greenville profiles. Uses semantic HTML elements for structure according to rubric.</p>
+    </section>
+    <p>NC Cities, part of a WGU project.</p>
+  </footer>
+
+  <script>
+    // Email confirmation check with alert if mismatch.
+    (function () {
+      const form = document.getElementById('contact-form');
+      const email = document.getElementById('email');
+      const confirmEmail = document.getElementById('confirm-email');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault(); // demo in case I have issues with github. I don't know if explicit coercion is required here, but trying my best.
+        const a = (email.value + '').trim().toLowerCase();
+        const b = (confirmEmail.value + '').trim().toLowerCase();
+
+        if (a !== b) {
+          alert('The two email addresses do not match. Please re-enter them.');
+          confirmEmail.focus();
+          return;
+        }
+        alert('Thanks! Your emails match. This demo page does not submit information to a server.');
+      });
+    })();
+  </script>
+</body>
+</html>

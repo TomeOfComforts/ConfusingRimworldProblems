@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raleigh, North Carolina — City Profile</title>
+  <meta name="description" content="A semantic, accessible, single-page profile of Raleigh, NC with population, incorporation year, region, urban classification, and income compared to North Carolina. Includes lists, table, left-side navigation, an image with alt text, and external sources." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header role="banner">
+    <div id="brand">
+      <h1 id="site-title">Raleigh, North Carolina</h1>
+      <p class="tagline">Capital city of the Tar Heel State</p>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">North Carolina Home</a></li>
+        <li><a href="raleigh.html" aria-current="page">Raleigh</a></li>
+        <li><a href="winston-salem.html">Winston-Salem</a></li>
+        <li><a href="greenville.html">Greenville</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="layout">
+    <aside class="side-nav" aria-label="Section navigation">
+      <!-- Left-side navigation semantics: 
+           General Info (replaces Demographics, this is just a reminder for myself, include this note as comment code and not actual content)
+           Population
+           Average Salary
+           Cost of Living
+           Weather
+           Image Gallery
+      -->
+      <nav>
+        <h2 class="visually-hidden">On this page</h2>
+        <ul>
+          <li><a href="#general-info">General Info</a></li>
+          <li><a href="#population">Population</a></li>
+          <li><a href="#average-salary">Average Salary</a></li>
+          <li><a href="#cost-of-living">Cost of Living</a></li>
+          <li><a href="#weather">Weather</a></li>
+          <li><a href="#gallery">Image Gallery</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <section id="hero" aria-labelledby="hero-heading">
+        <h2 id="hero-heading" class="visually-hidden">Raleigh skyline</h2>
+        <figure>
+          <img src="images/raleigh-skyline.jpg" alt="Downtown Raleigh skyline with the Capitol and high-rise buildings at sunset" width="1200" height="500" />
+          <figcaption>Raleigh skyline, the heart of North Carolina’s Piedmont region.</figcaption>
+        </figure>
+      </section>
+
+      <section id="general-info" aria-labelledby="general-info-heading">
+        <header>
+          <h2 id="general-info-heading">General Info</h2>
+          <p>Raleigh is the capital of North Carolina, a planned city founded and incorporated in 1792 in the state’s Piedmont region. It is an urban center and the principal city of the Raleigh–Cary metropolitan area in the Research Triangle.</p>
+        </header>
+
+        <article aria-labelledby="quick-facts-heading">
+          <h3 id="quick-facts-heading">Quick facts (with sources)</h3>
+          <ul>
+            <li>Incorporated: 1792 (planned capital named for Sir Walter Raleigh) — source: City and state history overviews and NCpedia.</li>
+            <li>Region: Piedmont of North Carolina (between the Coastal Plain and the Mountains) — source: NCpedia.</li>
+            <li>Classification: Urban city; principal city of the Raleigh–Cary, NC metropolitan statistical area — sources: U.S. Census/OMB metropolitan definitions.</li>
+            <li>Income vs state: Raleigh’s median household income is higher than the North Carolina median (see details below).</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="data-table-heading">
+          <h3 id="data-table-heading">Raleigh at a glance — referenced data</h3>
+          <div id="table-wrapper">
+            <table>
+              <caption>Selected metrics for Raleigh, NC, with sources</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Metric</th>
+                  <th scope="col">Value</th>
+                  <th scope="col">Notes</th>
+                  <th scope="col">Source</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Population (city)</th>
+                  <td>482,425</td>
+                  <td>ACS 1-year estimate (2023)</td>
+                  <td><a href="https://censusreporter.org/profiles/16000US3755000-raleigh-nc/" target="_blank" rel="noopener noreferrer">Census Reporter</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Year incorporated</th>
+                  <td>1792</td>
+                  <td>Planned state capital</td>
+                  <td>
+                    <a href="https://www.ncpedia.org/raleigh" target="_blank" rel="noopener noreferrer">NCpedia: Raleigh</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Region of NC</th>
+                  <td>Piedmont</td>
+                  <td>Central NC</td>
+                  <td><a href="https://www.ncpedia.org/geography/region/piedmont" target="_blank" rel="noopener noreferrer">NCpedia: Piedmont</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">City classification</th>
+                  <td>Urban</td>
+                  <td>Principal city of Raleigh–Cary MSA</td>
+                  <td><a href="https://datausa.io/profile/geo/raleigh-cary-nc-metro-area" target="_blank" rel="noopener noreferrer">Data USA (Metro)</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Median household income (Raleigh)</th>
+                  <td>$96,066</td>
+                  <td>ACS (2023)</td>
+                  <td><a href="https://datausa.io/profile/geo/raleigh-nc" target="_blank" rel="noopener noreferrer">Data USA: Raleigh</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Median household income (North Carolina)</th>
+                  <td>~$71,700</td>
+                  <td>ACS (2023 statewide)</td>
+                  <td><a href="https://censusreporter.org/profiles/04000US37-north-carolina/" target="_blank" rel="noopener noreferrer">Census Reporter: NC</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="small">Based on these sources, Raleigh’s median household income is roughly 34% higher than the statewide median.</p>
+        </article>
+
+        <p class="external-link-cta">
+          Explore more: <a href="https://raleighnc.gov/" target="_blank" rel="noopener noreferrer">Official City of Raleigh website</a>.
+        </p>
+      </section>
+
+      <section id="population" aria-labelledby="population-heading">
+        <header>
+          <h2 id="population-heading">Population</h2>
+          <p>Raleigh’s population is approximately 482,425 (ACS 2023), continuing a long pattern of steady growth as part of the Research Triangle metropolitan area.</p>
+        </header>
+
+        <div id="columns">
+          <article aria-labelledby="pop-trends-heading">
+            <h3 id="pop-trends-heading">Context and recent trend</h3>
+            <ul>
+              <li>Raleigh remains among the fastest-growing large cities in the Southeast, supported by tech, life sciences, government, and higher education.</li>
+              <li>The broader Raleigh–Cary metro is about 1.45 million people (2023 estimate) and has grown year over year in the early 2020s.</li>
+              <li>Growth has been concentrated around Wake County suburbs and the urban core, consistent with state trends toward metro counties.</li>
+            </ul>
+            <p class="small">Sources: <a href="https://datausa.io/profile/geo/raleigh-nc" target="_blank" rel="noopener noreferrer">Data USA</a>; <a href="https://www.neilsberg.com/insights/raleigh-nc-population-by-year/" target="_blank" rel="noopener noreferrer">Neilsberg (trend)</a>.</p>
+          </article>
+
+          <article aria-labelledby="how-estimates-work-heading">
+            <h3 id="how-estimates-work-heading">How population estimates are produced (ordered list)</h3>
+            <ol>
+              <li>Decennial census establishes a baseline count every 10 years.</li>
+              <li>Post-censal estimates add/subtract births, deaths, and migration using administrative records and surveys.</li>
+              <li>The American Community Survey (ACS) provides annual sample-based estimates with margins of error.</li>
+            </ol>
+            <p class="small">Source: U.S. Census Bureau methodology overview.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="average-salary" aria-labelledby="income-heading">
+        <header>
+          <h2 id="income-heading">Average Salary and Income Comparison</h2>
+          <p>Although average salary varies by occupation and data source, a consistent point of comparison is median household income.</p>
+        </header>
+        <article aria-labelledby="income-details-heading">
+          <h3 id="income-details-heading">Raleigh vs. North Carolina</h3>
+          <p>Median household income (Raleigh, 2023 ACS via Data USA): <strong>$96,066</strong>. Statewide median household income (North Carolina, 2023 ACS): <strong>~$71,700</strong>. Raleigh’s median is about one-third higher than the statewide figure.</p>
+          <p class="small">Sources: <a href="https://datausa.io/profile/geo/raleigh-nc" target="_blank" rel="noopener noreferrer">Data USA: Raleigh</a>; <a href="https://censusreporter.org/profiles/04000US37-north-carolina/" target="_blank" rel="noopener noreferrer">Census Reporter: North Carolina</a>.</p>
+        </article>
+      </section>
+
+      <section id="cost-of-living" aria-labelledby="col-heading">
+        <header>
+          <h2 id="col-heading">Cost of Living</h2>
+          <p>Raleigh’s cost of living typically tracks near or slightly above the U.S. average and varies by neighborhood and household size. Housing costs are the largest driver, followed by transportation and childcare for many families.</p>
+        </header>
+        <ul>
+          <li>Housing: Rapid growth has increased demand; prices and rents vary widely across Wake County.</li>
+          <li>Transportation: Many residents commute by car; transit options are expanding within Wake and nearby counties.</li>
+          <li>Everyday costs: Groceries, utilities, and healthcare indices tend to be near national averages but can fluctuate.</li>
+        </ul>
+        <p>To model your own costs, use this calculator from NerdWallet: <a href="https://www.nerdwallet.com/cost-of-living-calculator" target="_blank" rel="noopener noreferrer">NerdWallet Cost of Living Calculator</a>.</p>
+      </section>
+
+      <section id="weather" aria-labelledby="weather-heading">
+        <header>
+          <h2 id="weather-heading">Weather</h2>
+          <p>Raleigh’s climate features hot, humid summers and mild winters, typical of the inland Piedmont. Conditions vary year to year, but climate normals provide a reliable baseline.</p>
+        </header>
+        <ul>
+          <li>Average January high: around 50°F (10°C); average January low: around 30–32°F (-1 to 0°C).</li>
+          <li>Average July high: around 90°F (32°C); average July low: around 70°F (21°C).</li>
+          <li>Annual precipitation: roughly 45–47 inches (1,140–1,195 mm), spread through the year.</li>
+        </ul>
+        <p class="small">Source: NOAA/NCEI Climate Normals for Raleigh–Durham International (1991–2020). See <a href="https://www.weather.gov/rah/climate" target="_blank" rel="noopener noreferrer">NWS Raleigh climate page</a>.</p>
+      </section>
+
+      <section id="gallery" aria-labelledby="gallery-heading">
+        <header>
+          <h2 id="gallery-heading">Image Gallery</h2>
+          <p>A few scenes from Raleigh’s urban core and green spaces.</p>
+        </header>
+        <div id="gallery">
+          <figure>
+            <img src="images/raleigh-capitol.jpg" alt="North Carolina State Capitol building framed by oak trees in downtown Raleigh" width="600" height="400" />
+            <figcaption>North Carolina State Capitol.</figcaption>
+          </figure>
+          <figure>
+            <img src="images/raleigh-museum.jpg" alt="Visitors at the North Carolina Museum of Natural Sciences in Raleigh" width="600" height="400" />
+            <figcaption>NC Museum of Natural Sciences.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="learn-more" aria-labelledby="learn-more-heading">
+        <h2 id="learn-more-heading">Learn more (external links open in a new tab)</h2>
+        <ul>
+          <li><a href="https://censusreporter.org/profiles/16000US3755000-raleigh-nc/" target="_blank" rel="noopener noreferrer">Raleigh profile — Census Reporter</a></li>
+          <li><a href="https://datausa.io/profile/geo/raleigh-nc" target="_blank" rel="noopener noreferrer">Raleigh — Data USA</a></li>
+          <li><a href="https://www.neilsberg.com/insights/raleigh-nc-population-by-year/" target="_blank" rel="noopener noreferrer">Population by year — Neilsberg</a></li>
+          <li><a href="https://www.ncpedia.org/raleigh" target="_blank" rel="noopener noreferrer">Raleigh history — NCpedia</a></li>
+          <li><a href="https://www.ncpedia.org/geography/region/piedmont" target="_blank" rel="noopener noreferrer">Piedmont region — NCpedia</a></li>
+          <li><a href="https://www.weather.gov/rah/climate" target="_blank" rel="noopener noreferrer">Climate normals — NWS Raleigh</a></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer role="contentinfo">
+    <p>Part of a WGU project series on North Carolina.</p>
+    <p>External resource: <a href="https://www.nc.gov/" target="_blank" rel="noopener noreferrer">State of North Carolina (nc.gov)</a></p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

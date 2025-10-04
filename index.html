@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>North Carolina | Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Project file structure:
+       index.html               -> Home (this page)
+       raleigh.html             -> Raleigh page
+       winston-salem.html       -> Winston-Salem page
+       greenville.html          -> Greenville page
+       contact.html             -> Form page (JavaScript demo)
+       css/styles.css           -> Sitewide external stylesheet
+       js/main.js               -> Form validation (email mismatch) used on contact.html
+       images/                  -> Put images here (images/nc-cape-hatteras-lighthouse.jpg)
+  -->
+
+  <!-- Reminder for elements in rubric
+       Semantic elements: North Carolina, Raleigh, Winston-Salem, Greenville, Home Page, Comment Form
+  -->
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header>
+    <div id="site-title">
+      <h1 id="site-title">North Carolina</h1>
+      <p class="tagline">Old North State — coast to mountains</p>
+    </div>
+­     <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="raleigh.html">Raleigh</a></li>
+        <li><a href="winston-salem.html">Winston-Salem</a></li>
+        <li><a href="greenville.html">Greenville</a></li>
+        <li><a href="contact.html">Contact / Comment Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- D3 float revision -->
+    <section aria-labelledby="intro-heading">
+     <article class="clearfix">
+  <h2 id="intro-heading">Welcome to North Carolina</h2>
+  <p>
+    From the windswept cliffs of Cape Hatteras to the majestic Blue Ridge and stunning Smoky Mountains, North Carolina blends rich history, cities empowered by the spiraling aspirations of great research, and diverse natural beauty.
+  </p>
+  <figure class="float-left">
+    <img src="images/nc-cape-hatteras-lighthouse.jpg"
+         alt="Cape Hatteras Lighthouse standing along the North Carolina coast at sunrise"
+         width="300" />
+    <figcaption>Cape Hatteras Lighthouse, an iconic North Carolina landmark.</figcaption>
+  </figure>
+
+  <p>
+    Explore a few of the best cities with our scenic city series—Raleigh (the capital), Winston-Salem, and Greenville—using the navigation above.
+    For official statewide services, visit
+    <a href="https://www.nc.gov/" target="_blank" rel="noopener">nc.gov (opens in new tab)</a>.
+  </p>
+</article>
+      <aside aria-labelledby="quick-facts-heading">
+        <h3 id="quick-facts-heading">Quick facts</h3>
+        <ul>
+          <li>Capital: Raleigh</li>
+          <li>Regions: Coastal Plain, Piedmont, Mountains</li>
+          <li>Nicknames: Old North State, Tar Heel State</li>
+        </ul>
+      </aside>
+    </section>
+­    <section aria-labelledby="reasons-heading">
+      <h2 id="reasons-heading">Top 3 reasons people visit</h2>
+      <ol>
+        <li>Beaches and maritime history along the Outer Banks</li>
+        <li>Blue Ridge Parkway vistas and hiking</li>
+        <li>Food, arts, and innovation across the Triangle and Triad</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="industries-heading">
+      <h2 id="industries-heading">Industries and strengths</h2>
+      <ul>
+        <li>Research and technology (RTP: Raleigh–Durham–Chapel Hill)</li>
+        <li>Manufacturing, aviation, and logistics</li>
+        <li>Healthcare and higher education (ECU, UNC, NC State, Duke)</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="table-heading">
+      <h2 id="table-heading">Featured cities overview</h2>
+      <table>
+        <caption>Snapshot of three North Carolina cities</caption>
+        <thead>
+          <tr>
+            <th scope="col">City</th>
+            <th scope="col">Region</th>
+            <th scope="col">Notable for</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="raleigh.html">Raleigh</a></td>
+            <td>Piedmont</td>
+            <td>State capital, museums, research and tech</td>
+          </tr>
+          <tr>
+            <td><a href="winston-salem.html">Winston-Salem</a></td>
+            <td>Piedmont / Triad</td>
+            <td>Arts and innovation, Old Salem/Moravian history</td>
+          </tr>
+          <tr>
+            <td><a href="greenville.html">Greenville</a></td>
+            <td>Coastal Plain</td>
+            <td>East Carolina University, healthcare, riverfront</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+<section aria-labelledby="learn-more-heading">
+      <h2 id="learn-more-heading">Learn more</h2>
+      <p>
+        Background and history:
+        <a href="https://www.ncpedia.org/" target="_blank" rel="noopener">NCpedia</a>,
+        <a href="https://www.visitnc.com/" target="_blank" rel="noopener">VisitNC</a>,
+        <a href="https://en.wikipedia.org/wiki/North_Carolina" target="_blank" rel="noopener">Wikipedia: North Carolina</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 North Carolina Mini Site — WGU project.</p>
+  </footer>
+</body>
+</html>
